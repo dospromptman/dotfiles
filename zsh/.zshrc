@@ -1,6 +1,9 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# Setting default user to hide in agnoster prompt
+DEFAULT_USER=jbury
+
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/jbury/.oh-my-zsh
 
@@ -84,3 +87,15 @@ export EDITOR='vim'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+export PAGER=less
+export VISUAL=vi
+export EDITOR=vi
+export NETHACKOPTIONS="role:arc,race:human,align:neu,gender:male,pettype:cat,hilite_pet,catname:Schrodinger,IBMgraphics,fruit:coffee,color,msg_window,showexp,time,windowtype:curses"
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export MANPATH="$HOMEBREW_PREFIX/opt/coreutils/libexec/gnuman:$MANPATH"
+
+eval `gdircolors ~/.dir_colors/dircolors.ansi-dark`
+alias ls='gls --color=always'
+
+alias vi=vim
