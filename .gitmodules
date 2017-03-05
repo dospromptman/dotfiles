@@ -13,3 +13,6 @@
 [submodule "vim/.vim/bundle/vim-cute-python"]
 	path = vim/.vim/bundle/vim-cute-python
 	url = https://github.com/ehamberg/vim-cute-python.git
+[submodule "vim/.vim/bundle/vimwiki"]
+	path = vim/.vim/bundle/vimwiki
+	url = https://github.com/vimwiki/vimwiki.git
