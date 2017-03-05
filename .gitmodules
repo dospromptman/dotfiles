@@ -1,0 +1,3 @@
+[submodule "vim/.vim/bundle/funcoo.vim"]
+	path = vim/.vim/bundle/funcoo.vim
+	url = https://github.com/rizzatti/funcoo.vim.git
