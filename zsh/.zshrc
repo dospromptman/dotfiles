@@ -99,3 +99,5 @@ eval `gdircolors ~/.dir_colors/dircolors.ansi-dark`
 alias ls='gls --color=always'
 
 alias vi=vim
+
+function npm-do { (PATH=$(npm bin):$PATH; eval $@;) }
